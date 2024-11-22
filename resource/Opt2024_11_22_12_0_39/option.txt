@@ -1,0 +1,12 @@
+localfit_outer_iteration : 2
+localfit_inner_iteration : 3
+kappa1 : 1.000e-02
+kappa2 : 1.000e-03
+kappa3 : 1.000e-04
+kappa4 : 1.000e-08
+kappa_boundary_factor : 1.000e+00
+crep : 1.000e-02
+crep_boundary_factor : 3.000e+00
+edge_swap_sym_factor : 1.000e-02
+edge_op_iter_factor : 1
+time_duration_seconds : 21.181999

@@ -1,0 +1,28 @@
+# Don't Include .vs Folder, since the size of the folder will be large
+.vs/  
+
+# Don't Include Debug/Resource Folder, It's not appropriate to share
+# The 'Debug/' will ignore Root/Debug/ and also Root/CGImplementation/Debug
+Debug/
+Release/
+
+# Don't Include Imgui Setting Save File.
+imgui.ini
+
+# Don't Include build folder
+build/
+
+# Don't include vs pycache folder
+__pycache__/
+
+# This is actually .pickle file but it's too big to upload on git
+# so I ignore it and try to make the data on its own local computer
+*.big
+
+# training network file
+# I can pass by myself without uploading it on git
+*.pt
+
+# ignore python tensorboard folder SW stands for SummaryWriter, 
+# which is the class name from pytorch tensorboard.
+*SW/
